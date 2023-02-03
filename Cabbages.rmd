@@ -40,10 +40,17 @@ boxplot(VitC~Cult,data=veggy)
 ```
   
 The bottom of c52's box is above c39's box. C52 has more vitamin C than c39.   
-
+  
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+  
+The average for c52 is 47, while the average for c39 is 41. Their averages are 6 points apart, confirming that c52 has more vitamin C than c39.
+  
 
 ## Inferential Results
 
