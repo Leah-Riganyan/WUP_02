@@ -60,9 +60,11 @@ The min for c52 is 47, while the min for c39 is 41. They are 6 points apart, con
 t.test(VitC~Cult,data=veggy)
 ```
   
-The chance that there would be no difference between the c39 and c52 groups would be .00000003405. It's so small, that it confirms that the c52 cultivation method is better and more effective than c39.
+The chance that there would be no difference between the c39 and c52 groups would be .00000003405%. It's so small, that it confirms that the c52 cultivation method is better and more effective than c39.
   
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+  
+To figure out which group has more vitamin C, we first started out with a box plot. It showed that the median between c39 and c52 was exceptionally different. Going further, we looked at the numerical results of that plot. It showed that numerically they are very different. Finally, we did a t test affirmed the hypothesis that c59 had more vitamin C than c39. The p-value was .00000003405%, making it practically impossible to come up with a result stating that c39 has more vitamin C than c52.
